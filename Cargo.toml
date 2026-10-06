@@ -1,0 +1,13 @@
+[package]
+name = "minder"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1"
+chrono = "0.4"
+env_logger = "0.11"
+gpui = { package = "gpui-ce", git = "https://github.com/gpui-ce/gpui-ce/", version = "0.2.2" }
+gpui_ce_elements = { git = "https://github.com/gpui-ce/gpui-ce/", version = "0.1.0" }
+gpui_platform = { package = "gpui_ce_platform", git = "https://github.com/gpui-ce/gpui-ce/", version = "0.1.0", features = ["font-kit"] }
+palette = "0.7"
